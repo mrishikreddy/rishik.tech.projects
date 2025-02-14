@@ -144,7 +144,7 @@ Maldives in every way.
     minWidth: '1000px',
     height: '810px',
     borderRadius: '7px',
-    backgroundImage: "url('../dn.jpg')",  // Add your image URL here
+    backgroundImage: "url('/dn.jpg')",  // Add your image URL here
     backgroundSize: '100%',
   }} >
 <br/><h1 style={{ margin: '5%' }}>Experience the Ultimate Events</h1>

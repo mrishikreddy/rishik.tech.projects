@@ -8,5 +8,13 @@
   background: linear-gradient(45deg, rgb(255, 0, 0), blue);
   color: white;
   font-weight: 700;
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+@media(max-width:700px)
+{
+  .homePage{
+    font-size: 5vh;
+  }
 }
