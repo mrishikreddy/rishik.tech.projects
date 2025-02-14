@@ -29,7 +29,7 @@ export default function wahome()
 <br id="home"/><br/><br/>		
 <div className={styles.hm} >
 <h1 >Welcome to Paradise - Your Gateway to Maldivian Bliss</h1>
-<img src="/rishik.tech.projects/webApp/img2.jpg" className={styles.res}/>
+<img src="../img2.jpg" className={styles.res}/>
 <br/><br/>
 <p className={styles.fs}>&emsp;&emsp;&emsp; Discover a world of unparalleled luxury and natural beauty at Paradise Resort, 
 nestled on the enchanting Panama Island in the heart of the Maldives. Just 80 kilometers away 
@@ -58,7 +58,7 @@ as you create lasting memories in your chosen haven.
 
 
  	<div className={styles.sd}>
-        	<img src="./rishik.tech.projects/webAppbv.jpg" className={styles.idi}/>
+        	<img src="../webAppbv.jpg" className={styles.idi}/>
 			<div className={styles.toCenter}>Beach Villas</div>
         	
 		<br/>
@@ -67,7 +67,7 @@ as you create lasting memories in your chosen haven.
 		<button className={styles.botn}>Check availability</button>
         </div>
         <div className={styles.sd}>
-        	<img src="./wv.jpg" className={styles.idi}/>
+        	<img src="../wv.jpg" className={styles.idi}/>
 		<div className={styles.toCenter}>Water Villas</div>
 		<br/>
                 <p style={{ fontSize: '30px', color: 'white', paddingLeft: '37%' }}>4.5 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></p>
@@ -75,7 +75,7 @@ as you create lasting memories in your chosen haven.
 		<button className={styles.botn}>Check availability</button>
         </div>
 		<div className={styles.sd}>
-		<img src="./fso.jpeg" className={styles.idi}/>
+		<img src="../fso.jpeg" className={styles.idi}/>
 		<div className={styles.toCenter}>
 		Family Suites</div>
                 <br/>
@@ -84,7 +84,7 @@ as you create lasting memories in your chosen haven.
 		<button className={styles.botn}>Check availability</button>
         </div>
         	<div className={styles.sd}>
-		<img src="../../gvo.jpeg" className={styles.idi}/>
+		<img src="../gvo.jpeg" className={styles.idi}/>
 		<div className={styles.toCenter}>Garden Villas</div>
 		
 		<br/>
@@ -110,20 +110,20 @@ offering enticing discounts to children and recently married couples. Discover a
 Maldives in every way.
 </p><br/><br/>
 	      <div className={styles.sdm}>
-        	<img src="./para.webp" className={styles.imii}/>
+        	<img src="../para.webp" className={styles.imii}/>
         	<b style={{ color: '#66D3FA'}}>boat parachuting</b>
 		
         </div>
                 <div className={styles.sdm}>
-        	<img src="./swim.jpg" className={styles.imii}/>
+        	<img src="../swim.jpg" className={styles.imii}/>
 		<b style={{ color: '#66D3FA' }}>Swimming</b>
         </div>
 		<div className={styles.sdm}>
-		<img src="./boat.jpg" className={styles.imii}/>
+		<img src="../boat.jpg" className={styles.imii}/>
 		<b style={{ color: '#66D3FA' }}>Boating</b>
         </div>
         	<div className={styles.sdm}>
-		<img src="./surf.webp" className={styles.imii}/>
+		<img src="../surf.webp" className={styles.imii}/>
 		<b style={{ color: '#66D3FA' }}>Surfing</b>
         </div>	
 </div>	
