@@ -58,7 +58,7 @@ as you create lasting memories in your chosen haven.
 
 
  	<div className={styles.sd}>
-        	<img src="/webAppbv.jpg" className={styles.idi}/>
+        	<img src="../webAppbv.jpg" className={styles.idi}/>
 			<div className={styles.toCenter}>Beach Villas</div>
         	
 		<br/>
@@ -67,7 +67,7 @@ as you create lasting memories in your chosen haven.
 		<button className={styles.botn}>Check availability</button>
         </div>
         <div className={styles.sd}>
-        	<img src="/wv.jpg" className={styles.idi}/>
+        	<img src="../wv.jpg" className={styles.idi}/>
 		<div className={styles.toCenter}>Water Villas</div>
 		<br/>
                 <p style={{ fontSize: '30px', color: 'white', paddingLeft: '37%' }}>4.5 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></p>
@@ -136,7 +136,17 @@ Maldives in every way.
 <br/>
 <br id="Eve"/><br/><br/><br/>
 <br/>
-<div className={styles.hmm} >
+<div style={{
+    color: 'white',
+    margin: 'auto',
+    width: '90%',
+    maxWidth: '1500px',
+    minWidth: '1000px',
+    height: '810px',
+    borderRadius: '7px',
+    backgroundImage: "url('../dn.jpg')",  // Add your image URL here
+    backgroundSize: '100%',
+  }} >
 <br/><h1 style={{ margin: '5%' }}>Experience the Ultimate Events</h1>
 <br/><br/><br/><br/><br/>
 <p className={styles.fsmm}>&emsp;&emsp;&emsp;Welcome to our exquisite Maldivian resort, 
