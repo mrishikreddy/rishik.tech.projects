@@ -1,5 +1,4 @@
 import "./globals.css";
-import Head from 'next/head';
 
 export const metadata = {
   title: "Rishik Tech Projects",
@@ -8,13 +7,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-      </Head>
-      <div>
+    <html lang="en">
+      <body>
         {children}
-      </div>
-    </>
+      </body>
+    </html>
   );
 }
