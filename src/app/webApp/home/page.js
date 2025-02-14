@@ -15,7 +15,7 @@ export default function wahome()
         <div className={styles.fdiv}>
     <table className={styles.nav}>
 		<thead>
-	<tr><th><img src="/logo.jpg" style={{ width: '55%', height: '50px', marginTop: '-10px' }}/></th>
+	<tr><th><img src="../logo.jpg" style={{ width: '55%', height: '50px', marginTop: '-10px' }}/></th>
 	<th><a href="#home">Home</a></th>
 	<th><a href="#Rooms" style={{ paddingBottom: '13.4%' }}>Rooms</a></th>
 	<th><a href="#Act" style={{ paddingBottom: '10.9%' }}>Activites</a></th>
@@ -29,7 +29,7 @@ export default function wahome()
 <br id="home"/><br/><br/>		
 <div className={styles.hm} >
 <h1 >Welcome to Paradise - Your Gateway to Maldivian Bliss</h1>
-<img src="./img2.jpg" className={styles.res}/>
+<img src="/rishik.tech.projects/webApp/img2.jpg" className={styles.res}/>
 <br/><br/>
 <p className={styles.fs}>&emsp;&emsp;&emsp; Discover a world of unparalleled luxury and natural beauty at Paradise Resort, 
 nestled on the enchanting Panama Island in the heart of the Maldives. Just 80 kilometers away 
@@ -58,7 +58,7 @@ as you create lasting memories in your chosen haven.
 
 
  	<div className={styles.sd}>
-        	<img src="./bv.jpg" className={styles.idi}/>
+        	<img src="./rishik.tech.projects/webAppbv.jpg" className={styles.idi}/>
 			<div className={styles.toCenter}>Beach Villas</div>
         	
 		<br/>
@@ -84,7 +84,7 @@ as you create lasting memories in your chosen haven.
 		<button className={styles.botn}>Check availability</button>
         </div>
         	<div className={styles.sd}>
-		<img src="./gvo.jpeg" className={styles.idi}/>
+		<img src="../../gvo.jpeg" className={styles.idi}/>
 		<div className={styles.toCenter}>Garden Villas</div>
 		
 		<br/>
