@@ -58,7 +58,7 @@ as you create lasting memories in your chosen haven.
 
 
  	<div className={styles.sd}>
-        	<img src="../webAppbv.jpg" className={styles.idi}/>
+        	<img src="../bv.jpg" className={styles.idi}/>
 			<div className={styles.toCenter}>Beach Villas</div>
         	
 		<br/>
