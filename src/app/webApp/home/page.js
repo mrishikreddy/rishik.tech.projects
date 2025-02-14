@@ -58,7 +58,7 @@ as you create lasting memories in your chosen haven.
 
 
  	<div className={styles.sd}>
-        	<img src="../webAppbv.jpg" className={styles.idi}/>
+        	<img src="/webAppbv.jpg" className={styles.idi}/>
 			<div className={styles.toCenter}>Beach Villas</div>
         	
 		<br/>
@@ -67,7 +67,7 @@ as you create lasting memories in your chosen haven.
 		<button className={styles.botn}>Check availability</button>
         </div>
         <div className={styles.sd}>
-        	<img src="../wv.jpg" className={styles.idi}/>
+        	<img src="/wv.jpg" className={styles.idi}/>
 		<div className={styles.toCenter}>Water Villas</div>
 		<br/>
                 <p style={{ fontSize: '30px', color: 'white', paddingLeft: '37%' }}>4.5 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></p>
