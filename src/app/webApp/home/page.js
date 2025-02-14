@@ -15,7 +15,7 @@ export default function wahome()
         <div className={styles.fdiv}>
     <table className={styles.nav}>
 		<thead>
-	<tr><th><img src="./logo.jpg" style={{ width: '55%', height: '50px', marginTop: '-10px' }}/></th>
+	<tr><th><img src="/logo.jpg" style={{ width: '55%', height: '50px', marginTop: '-10px' }}/></th>
 	<th><a href="#home">Home</a></th>
 	<th><a href="#Rooms" style={{ paddingBottom: '13.4%' }}>Rooms</a></th>
 	<th><a href="#Act" style={{ paddingBottom: '10.9%' }}>Activites</a></th>
