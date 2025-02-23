@@ -16,7 +16,7 @@ export default function LoginPage() {
   return (
     <div className={styles.container}>
       <video autoPlay loop muted playsInline className={styles.videoBackground}>
-        <source src="/beach.mp4" type="video/mp4" />
+        <source src="./beach.mp4" type="video/mp4" />
       </video>
 
       <div className={styles.formWrapper}>
