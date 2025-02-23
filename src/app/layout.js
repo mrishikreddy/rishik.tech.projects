@@ -6,7 +6,7 @@ export const metadata = {
   keywords: "Rishik Reddy, Rishik Tech, Reddy, Male Rishik Reddy, Software Developer, Software Engineer, Machine Learning, Portfolio",
   author: "Rishik Reddy",
   icons: {
-    icon: "/favicon.png",
+    icon: "./favicon.png",
   },
 };
 
