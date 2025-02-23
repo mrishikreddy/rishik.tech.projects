@@ -16,7 +16,7 @@ export default function Wahome() {
       <nav className={styles.navbar}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <img src="/logo.jpg" alt="Logo" className={styles.logoImg}width={100} height={70} />
+            <img src="../logo.jpg" alt="Logo" className={styles.logoImg}width={100} height={70} />
           </div>
           <div className={styles.actions}>
             <div
@@ -45,7 +45,7 @@ export default function Wahome() {
         <div className={styles.headingDiv}>
         <h1 >Welcome to Paradise - Your Gateway to Maldivian Bliss</h1>
         </div>
-        <img src="/img2.jpg" className={styles.introImage}/>
+        <img src="../img2.jpg" className={styles.introImage}/>
       </div>
 
       <div className={styles.paraDiv}>
@@ -80,7 +80,7 @@ export default function Wahome() {
         </div>
         <div className={styles.types}>
           <div className={styles.rooms}>
-            <img src="/bv.jpg" className={styles.idi}/>
+            <img src="../bv.jpg" className={styles.idi}/>
 			        <div className={styles.details}>Beach Villas</div>
                 <div className={styles.details}>4.7 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></div>
 		              <div className={styles.details}>25,000 &#8377; per night</div>
@@ -88,7 +88,7 @@ export default function Wahome() {
           </div>
 
           <div className={styles.rooms}>
-          <img src="/wv.jpg" className={styles.idi}/>
+          <img src="../wv.jpg" className={styles.idi}/>
 			        <div className={styles.details}>Water Villas</div>
                 <div className={styles.details}>4.5 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></div>
 		              <div className={styles.details}>30,000 &#8377; per night</div>
@@ -96,7 +96,7 @@ export default function Wahome() {
           </div>
 
           <div className={styles.rooms}>
-          <img src="/fso.jpeg" className={styles.idi}/>
+          <img src="../fso.jpeg" className={styles.idi}/>
 			        <div className={styles.details}>Family Suites</div>
                 <div className={styles.details}>4.6 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></div>
 		              <div className={styles.details}>60,000 &#8377; per night</div>
@@ -104,7 +104,7 @@ export default function Wahome() {
           </div>
 
           <div className={styles.rooms}>
-          <img src="/gvo.jpeg" className={styles.idi}/>
+          <img src="../gvo.jpeg" className={styles.idi}/>
 			        <div className={styles.details}>Garden Villas</div>
                 <div className={styles.details}>4.3 <FontAwesomeIcon icon={faStar} width="20px" color="gold"/></div>
 		              <div className={styles.details}>15,000 &#8377; per night</div>
@@ -137,12 +137,12 @@ export default function Wahome() {
       <div className={styles.activites}>
 
         <div className={styles.actImgDiv}>
-        <img src="/para.webp" className={styles.imii}/>
+        <img src="../para.webp" className={styles.imii}/>
           boat parachuting
         </div>
 
         <div className={styles.actImgDiv}>
-        <img src="/swim.jpg" className={styles.imii}/>
+        <img src="../swim.jpg" className={styles.imii}/>
           Swimming
         </div>
       </div>
@@ -150,12 +150,12 @@ export default function Wahome() {
       <div className={styles.activites}>
 
       <div className={styles.actImgDiv}>
-      <img src="/boat.jpg" className={styles.imii}/>
+      <img src="../boat.jpg" className={styles.imii}/>
         Boating
       </div>
 
       <div className={styles.actImgDiv}>
-      <img src="/surf.webp" className={styles.imii}/>
+      <img src="../surf.webp" className={styles.imii}/>
         Surfing
       </div>
       </div>
