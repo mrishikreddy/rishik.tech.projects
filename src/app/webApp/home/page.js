@@ -225,8 +225,6 @@ export default function Wahome() {
         <div className={styles.footerIcons}><Link  href="https://www.facebook.com/share/1A6jkumtxw/" target="_blank"><FontAwesomeIcon icon={faFacebookSquare}  size="2x" color="white"/> </Link ></div>
         </div>
       </div>
-
-
      
     </>
   );
