@@ -238,7 +238,7 @@
     height: auto;
     margin-top: 2%;
     border-radius: 12px;
-    background-image: url("./dn.jpg"); 
+    background-image: url("/dn.jpg"); 
     background-size: cover; 
     background-position: center; 
   }
